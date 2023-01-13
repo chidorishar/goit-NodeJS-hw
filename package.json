@@ -29,5 +29,8 @@
       "start": "cls || clear",
       "restart": "cls || clear"
     }
+  },
+  "dependencies": {
+    "commander": "^9.5.0"
   }
 }
