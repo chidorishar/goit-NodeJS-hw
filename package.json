@@ -1,0 +1,22 @@
+{
+  "name": "goit-nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chidorishar/goit-NodeJS-hw.git"
+  },
+  "author": "Ola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chidorishar/goit-NodeJS-hw/issues"
+  },
+  "homepage": "https://github.com/chidorishar/goit-NodeJS-hw#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
