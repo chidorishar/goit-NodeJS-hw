@@ -22,6 +22,9 @@
   },
   "type": "module",
   "nodemonConfig": {
+    "ignore": [
+      "db/"
+    ],
     "events": {
       "start": "cls || clear",
       "restart": "cls || clear"
