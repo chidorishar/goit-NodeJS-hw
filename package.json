@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "start:dev"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "homepage": "https://github.com/chidorishar/goit-NodeJS-hw#readme",
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "events": {
+      "start": "cls || clear",
+      "restart": "cls || clear"
+    }
   }
 }
