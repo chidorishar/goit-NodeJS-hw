@@ -1,11 +1,12 @@
 import { readFileSync } from "node:fs";
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "url";
 
+const [, pathToIndexFile] = process.argv;
 const contactsPath = path.join(
-  path.dirname(fileURLToPath(import.meta.url)),
-  "/db/contacts.json"
+  path.dirname(pathToIndexFile),
+  "db",
+  "contacts.json"
 );
 let contacts = [];
 let lastContactIndex;
@@ -42,7 +43,7 @@ export function addContact(name, email, phone) {
 
 async function writeContactsToDB() {
   try {
-    await writeFile(contactsPath, JSON.stringify(contacts), "utf-8");
+    await writeFile(contactsPath, JSON.stringify(contacts, null, 2), "utf-8");
   } catch (error) {
     console.log("Can't write a contacts data to the database to the disk!");
   }
