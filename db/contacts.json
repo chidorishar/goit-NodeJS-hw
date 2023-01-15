@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Ajax",
+    "email": "ajax@mail.com",
+    "phone": "+666",
+    "id": 0
+  },
+  {
+    "name": "Kiwi",
+    "email": "kiwi@mail.com",
+    "phone": "+666",
+    "id": 1
+  },
+  {
+    "name": "Tomato",
+    "email": "tomato@mail.com",
+    "phone": "+666",
+    "id": 2
+  },
+  {
+    "name": "Nemo",
+    "email": "Nemo@mail.com",
+    "phone": "+666",
+    "id": 4
+  },
+  {
+    "name": "Superuser",
+    "email": "super@mail.com",
+    "phone": "+666",
+    "id": 5
+  },
+  {
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22",
+    "id": 6
+  }
+]
